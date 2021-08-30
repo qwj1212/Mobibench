@@ -100,6 +100,7 @@ Build shell version
 --------------------
     # cd shell && make
 /*交叉编译时，在Makefile中添加CROSS=aarch64-linux-gnu-*/
+/*make ARCH=arm64*/
 
 Usage (shell version)
 ----------------------
