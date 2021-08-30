@@ -99,7 +99,7 @@ The tab provides set of detailed configurable options for each benchmark. It pro
 Build shell version
 --------------------
     # cd shell && make
-
+/*交叉编译时，在Makefile中添加CROSS=aarch64-linux-gnu-*/
 
 Usage (shell version)
 ----------------------
