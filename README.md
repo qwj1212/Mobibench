@@ -123,4 +123,9 @@ Usage (shell version)
 * -s  set SQLite synchronous mode (0=OFF, 1=NORMAL, 2=FULL) (default=2)
 * -g  set replay script (output of MobiGen)
 * -q  do not display progress(%) message                                                           			
-
+"           -L  Make record on latency of each IO to a file (default=IO_latency.txt)",（只在file测试中可以使用）
+"           -k  Print out IOPS of the file test (default=IO_latency.txt)",
+"	    -v  set overlap ratio(%) of random numbers for",
+"					random IO workload (default=0%)",
+"	   -T  set number of tables (default=3, limit=20)",
+"	   -D  set number of databases (default=3, limit=20)",
